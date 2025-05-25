@@ -1,0 +1,2052 @@
+/* estilos del menu de navegación */
+.header_menu_{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo{
+    width: 100%;
+    float: left; 
+}
+header{
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 10;
+    background-color: #c44dc0;
+}
+.navegacion, .menu, .submenu{
+    position: relative;
+    z-index: 10;
+}
+.navegacion{
+    width: 1000px;
+    margin: 0 auto;
+    top: 30%;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: white;
+    transition: all .3s;
+}
+.submenu{
+   position: absolute;
+    background:#c44dc0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    text-align: center;
+}
+.menu li a{
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+/* ESTILOS DE LA PAGINA DE INICIO "INDEX.HTML" */
+.imagen_inicio{
+    background-image:url(../imagenes/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.cont_tit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.605);
+    border-radius: 15px;
+}
+.titu{
+    font-family: arial;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+}
+.contenedor_icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 100px;
+    padding-top: 20px;
+    margin: 90px;
+}
+.contenedor_icons2{
+    text-align: center;
+}
+.img_icon{
+    width: 50%;
+    padding: 5px;
+}
+.frace{
+    font-size: 18px;
+}
+.div_inicio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    text-align: center;
+}
+.div_inicio2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contenedor_inicio3{
+    text-align: center;
+}
+.imagen_inicio3{
+    width: 65%;
+    border: 10px solid rgb(154, 105, 78);
+    border-radius: 10px;
+}
+.titulo_definicion{
+   font-family: arial;
+   text-align: center;
+}
+.texto_inicio{
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+.vid_datos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+    background-color: #E5D8BD;
+}
+.tit_datos{
+    text-align: center;
+    text-decoration: bold;
+    padding: 30px;
+   font-size : 30px;
+}
+.div_curio{
+    margin: 25px;
+}
+.img_dato{
+    width: 60%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto_dato{
+    text-align: center;
+    margin: 10px;
+    font-size: 19px;
+    
+}
+.concon{
+    background-color: #dca1e1;
+    margin-top: 2%;
+}
+.invitación{
+   text-align: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 19px;
+
+}
+.div_contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.div_logo{
+    text-align: right;
+    padding-top: 2%;
+}
+.logo_contacto{
+    width: 30%;
+}
+.contenedor_redes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+.red{
+    width: 20%;
+    margin-top: 5%;
+}
+.red:hover{
+    background-color: rgb(255, 255, 255);
+}
+/* ESTILOS DE LA SEGUNDA PAGINA "PAGINA2.HTML" */
+.titulo{
+    text-align: center;
+    padding: 30px;
+    font-family: arial;
+}
+.div_plantas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    text-align: justify;
+}
+.subtitulo{
+    font-family: arial;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+.contendor_de_extra2{
+    display: none;
+}
+.texto_plantas{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imagen_d_plantasnum1{
+    text-align: center;
+}
+.imagen_d_plantas{
+    width: 70%;
+    box-shadow: 0 4px 10px rgb(147, 147, 147);
+}
+.subtitulo2{
+    font-family: arial;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+.contenedor_plantas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+    margin: 2%;
+}
+.link_imagen{
+    text-align: center;
+    border-radius: 8PX;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+.imagen{
+    width: 80%;
+    margin: 25px;
+    border-radius: 8PX;
+}
+.planta{
+    font-family: arial;
+    color: black;
+    text-align: center;
+   padding-bottom: 10px;
+   font-size: 25px;
+   font-weight: bold;
+}
+.planta:hover{
+   text-decoration: underline;
+   color: #da315e;
+}
+.div_plantas2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.imagen_baño{
+    text-align: center;
+    padding: 10px;
+}
+.img_baño{
+    width: 80%;
+    border:10px solid #738290;
+}
+.texto_plantas2{
+    text-align: justify;
+    font-size: 19px;
+    padding-top: 15%;
+}
+.div_baños{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 2%;
+    margin-top: 7%;
+}
+.baños{
+ border-radius: 5px;
+  box-shadow: 0 4px 10px rgb(39, 39, 39); 
+  background-color: #9da8ca;
+}
+.tit{
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+}
+.lu{
+   list-style-type: decimal;
+   text-align: justify;
+   padding-left: 10%;
+   padding-right: 10%;
+   font-size: 19px;
+}
+.lu li{
+    padding: 5px;
+}
+/* ESTILOS DE LA TERCERA PAGINA "PAGINA3.HTML" */
+.textoe{ 
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 19px;
+}
+.div_baño{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.baño{
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(0,0,0,0.3); 
+}
+.texto_de_tecnicas{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+.img_tecnica{
+    text-align: center;
+}
+.img_tecnicas{
+    width: 90%;
+    border-radius: 8px;
+}
+.container3{
+    margin: 5%;
+}
+.titul{
+    font-family: arial;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.Beneficio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.benef{
+    background: #d7e1eb;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+    font-size: 15px;  
+}
+.titulo_bene{
+    text-align: center;
+    font-family: arial;
+    padding: 5px;
+}
+/* ESTILOS DE LA CUARTA PAGINA "PAGINA4.HTML" */
+.definicion_curanderia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 5%;
+}
+.titulo_{
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    padding: 8px;
+}
+.conteiner_img{
+    text-align: center;
+}
+.imagen_de_definicion{
+    width: 50%;
+    box-shadow: 0 4px 10px rgb(39, 39, 39);
+}
+.texto_curandería{
+    text-align: justify;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.tip_cura{
+    font-family: arial;
+    text-align: center;
+}
+.div_tipos_c{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+}
+.divdiv{
+    margin: 20px;
+}
+.subtitul{
+    text-align: center;
+    font-family: arial;
+    margin-top: 6%;
+}
+.div_tipos_c2{
+    margin: 10px;
+}
+.div_tipos_c3{
+    margin: 10px;
+    background-color: #A1B5D8;
+    border-radius: 8px;
+}
+.cont_img_cura{
+    text-align: center;
+    margin: 5px;
+}
+.img_cura{
+    width: 90%;
+    border-radius: 8px;
+    border: 8px solid #CDB4DB;
+}
+.texto2{
+    font-size: 19px;
+    text-align: center;   
+}
+.texto3{
+    font-size: 19px;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px; 
+    list-style: circle; 
+}
+.texto3 li{
+    padding: 5px;
+}
+/* ESTILOS DE LA QUINTA PAGINA "PAGINA5.HTML" */
+.contenedor_de_img_parteras{
+    text-align: center;
+}
+.tex_to{
+    text-align: center;
+    font-size: 19px;
+}
+.img1{
+    width: 70%;
+    height: 200px;
+    border-radius: 8px;
+}
+.text1{
+    text-align: justify;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.contenedora{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 5%;
+}
+.historia_p{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.lul{
+    list-style-type: decimal;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 16px;
+}
+.lul li{
+    padding-top: 6px;
+}
+.luli{
+    list-style-type: decimal;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.luli li{
+    padding-top: 12px;
+}
+.img_ultim{
+    width: 60%;
+    border-radius: 8px;
+    border: 8px solid #A1B5D8;
+}
+.contenedor1{
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px;
+    background-color: #d0c5af; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    width: 90%;
+}
+.conten_img2{
+    text-align: center;
+}
+.img2{
+    width: 90%;
+    border-radius: 8px;
+    margin: 20px;
+}
+.mega_contendor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.contenedor2{
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px;
+    background-color: #e4f0d0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+.img_ultimo1{
+   text-align: center;
+}
+.img_ultimo{
+    width: 70%;
+    border-radius: 8px;
+    border: 8px solid #A1B5D8;
+}
+.contenedor_boton{
+    text-align: left;
+    margin-top: 30px;
+    text-align: center;
+}
+.boton1{
+    color: black;
+    background-color: #e4f0d0; 
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+}
+.boton1:hover{
+    background-color: #A1B5D8;
+}
+/* ESTILOS DE LA SEXTA PAGINA "PAGINA6.HTML" */
+.imgc{
+    width: 50%;
+    box-shadow: 0 4px 10px rgb(39, 39, 39);
+}
+.img_chamaness{
+    width: 80%;
+    padding-top: 3%;
+}
+.contenedor4{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+}
+.text1{
+    font-size: 19px;
+}
+.contenedorc{
+    background-color:#a1b5d8;
+    text-align:center;
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+.titul_e{
+    font-family: arial;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+.contenedor5{
+   width: 80%;
+   margin: auto;
+}
+.contenedord{
+    background-color:#a1b5d8;
+    text-align:left;
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img3{  
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+
+/* ESTILOS DE LA SEPTIMA PAGINA "PAGINA7.HTML" */
+.imgs{
+    text-align: center;
+    width: 40%;
+}
+.contimg{
+    text-align: center;
+    margin: 2%;
+}
+.contenedore{
+    display:flow-root;
+    background-color: #dba675;
+    text-align: center;
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+
+}
+/* ESTILOS DE LA OCTAVA PAGINA "PAGINA8.HTML" */
+.parrafo{
+      text-align: justify;
+      font-size: 19px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .section{
+      margin-bottom: 30px;
+    }
+    .section h2{
+      color: brown;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    .section img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .section p{
+      text-align: justify; 
+      line-height: 1.6;
+      font-size: 19px;
+    }
+    .dos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 6%;
+    }
+    .dos2{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 6%;
+    }
+    .ima {
+      margin-top: 40px;
+    }
+    .enla {
+      font-family: arial;
+      font-size: 20px;
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+/* ESTILOS DE LAS PAGINAS DE LAS PLANTAS DE LA PAGINA9.HTML A PAGINA17.HTML */
+.textol_plantas{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-align: justify;
+}
+.contenedor_p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.contenedor_img{
+    text-align: center;
+}
+.img_planta{
+    width: 80%;
+    margin: 4%;
+    border-radius: 8px;
+}
+/* MEDIA QUERIES DE UN CELULAR */
+@media (min-width: 360px) and (max-width:640px){
+    /* menu */
+.header_menu_2{
+    display: none;
+}
+.header_menu_{
+    display: block;
+    background-color: #c44dc0;
+}
+.contene_log{
+    text-align: right;
+}
+.imagen_del_log{
+    width: 80%;
+}
+.contendor_menu_telefono{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3%;
+}
+#menu-toggle{
+    display: none;
+}
+.menuicon{
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+    cursor: pointer;
+    background-color: #c44dc0;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.menunum1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color:#c44dc0;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.menunum1 ul{
+    list-style: none;
+    text-align: center;
+    font-family: arial;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.menunum1 ul li{
+    margin: 20px 0;
+    padding: 8px;
+}
+.menunum1 ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    font-weight: bold;
+   
+}
+.menunum1 ul li a:active{
+    color: white;
+}
+#menu-toggle:checked + .menuicon + .menunum1{
+    transform: translateX(0);
+}
+    /*Pagina 1 "index" */
+.imagen_inicio{
+    background-image:url(../imagenes/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.cont_tit{ 
+    top: 28%;
+    background-color: rgba(44, 44, 44, 0.605);
+    border-radius: 15px;
+}
+.titu{
+    font-size: 18px;
+    color: white;
+}
+.contenedor_icons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2%;
+    padding-bottom: 20%;
+}
+.div_inicio{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.div_inicio2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.vid_datos{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.concon{
+    margin-top: 5%;
+}
+.invitación{
+    font-size: 10px;
+    text-align: center;
+}
+.div_contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30%;
+    margin-top: 4% ;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.logo_contacto{
+    width: 80%;
+    padding-top: 5%;
+}
+.red{
+    width: 60%;
+    margin-top: 5%;
+}
+    /* pagina 2 */
+.div_plantas{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.contendor_de_extra2{
+    display: none;
+}
+.contenedor_plantas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    margin-bottom: 50%;
+}
+.link_imagen{
+    border-radius: 8PX;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+.imagen{
+    width: 70%;
+    border-radius: 8PX;
+}
+.planta{
+    font-family: arial;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.supermega{
+    margin-top: 20px;
+}
+.div_plantas2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.texto_plantas2{
+    text-align: justify;
+    font-size: 19px;
+    padding-top: 5px;
+}
+.div_baños{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-top: 20px;
+    padding: 10px;
+}
+    /* pagina 3 */
+.div_baño{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.Beneficio{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2%;
+}
+.benef{
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+}
+.tex_to{
+    font-size: 16px;
+}
+.subtitul{
+    padding-top: 10%;
+}
+.div_tipos_c{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1%;
+}
+.texto2{
+    text-align: justify;
+}
+    /* pagina 4 */
+.definicion_curanderia{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.texto_curandería{
+   padding: 10px;
+}
+.imagen_de_definicion{
+    width: 80%;
+}
+    /* pagina 5 */
+.cont{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.text1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.contenedora{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 10%;
+}
+.mega_contendor{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+    /* pagina 6 */
+.contenedor4{
+    display: grid;
+    grid-template-columns: repeat(1,1FR);
+}
+.contenedord{
+    display: grid;
+    grid-template-columns: repeat(1,1FR);
+}
+.contenedord{
+    width: 100%;
+}
+.TEXTO{
+    text-align: justify;
+}
+    /* pagina 7 */
+.imgs{
+    width: 70%;
+}
+    /* pagina 8 */
+.dos{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+.dos2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    flex-direction: column-reverse;
+}
+    /* Paginas de la 9 a la 17 "EXTRAS" */
+.contenedor_p{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.img_chamaness{
+    width: 100%;
+}
+}
+
+/* MEDIA QUERIES DE UNA TABLET */
+@media (min-width:641px) and (max-width:900px){
+    /* menu */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0%;
+}
+.logo{
+    width: 90%;
+    float: left; 
+}
+header{
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 10;
+    background-color: #c44dc0;
+}
+.navegacion, .menu, .submenu{
+    position: relative;
+    z-index: 10;
+}
+.navegacion{
+    width: 600px;
+    margin: 0 auto;
+    top: 30%;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: white;
+    transition: all .3s;
+}
+.submenu{
+   position: absolute;
+    background:#c44dc0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    text-align: center;
+}
+.menu li a{
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 20px;
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+    /*Pagina 1 "index" */
+.contenedor_icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%;
+    margin: 2%;
+    padding-bottom: 15%;
+}
+.img_icon{
+    width: 70%;
+}
+.div_inicio{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.div_inicio2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.vid_datos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0%;
+}
+.concon{
+    margin-top: 2.5%;
+}
+.invitación{
+    text-align: center;
+    font-size: 15px;
+
+}
+.div_contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40%;
+}
+.div_logo{
+    text-align: center;
+}
+.logo_contacto{
+    width: 80%;
+    padding-top: 5%;
+}
+.red{
+    width: 60%;
+    margin-top: 5%;
+}
+    /* pagina 2 */
+.div_plantas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.imagen_d_plantasnum1{
+    padding-top: 10%;
+}
+.contendor_de_extra1{
+    display: none;
+}
+.contendor_de_extra2{
+    display: block ;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 5%;
+}
+.texto_plantas9{
+    text-align: justify;
+    font-size: 19px;
+}
+.boton1{
+    color: black;
+    background-color: #e4f0d0; 
+    font-weight: bold;
+    padding: 5px 8px;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+}
+.boton1:hover{
+    background-color: #A1B5D8;
+}
+.contenedor_plantas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    margin-bottom: 50%;
+}
+.link_imagen{
+    border-radius: 8PX;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+.imagen{
+    width: 90%;
+    border-radius: 8PX;
+}
+.planta{
+    font-family: arial;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.supermega{
+    margin-top: 20px;
+    gap: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.div_plantas2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.texto_plantas2{
+    text-align: justify;
+    font-size: 19px;
+    padding-top: 5px;
+}
+.div_baños{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 20px;
+}
+.lu{
+    font-size: 15px;
+}
+    /* pagina 3 */
+.div_baño{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.texto_de_tecnicas{
+    font-size: 15px;
+}
+.Beneficio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
+}
+.benef{
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+}
+.tex_to{
+    font-size: 15px;
+}
+.subtitul{
+    padding-top: 10%;
+}
+.texto2{
+    text-align: justify;
+}
+    /* pagina 4 */
+.definicion_curanderia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.texto_curandería{
+   padding: 10px;
+}
+.conteiner_img{
+    padding-top: 20%;
+}
+.div_tipos_c{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0%;
+    margin: 0%;
+    margin: 0%;
+    margin-top: 0%;
+}
+.imagen_de_definicion{
+    width: 90%;
+}
+.cont_img_cura{
+    text-align: center;
+}
+.img_cura{
+    width: 100%;
+}
+.texto3, .texto2{
+    font-size: 15px;
+}
+.subtitul{
+    padding: 1%;
+}
+    /* pagina 5 */
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0%;
+}
+.img1{
+    width: 80%;
+}
+.text1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.contenedora{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10%;
+}
+.contenedorb{
+    margin: 0%;
+}
+.mega_contendor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0%;
+}
+.luli{
+    font-size: 12px;
+}
+    /* pagina 6 */
+.contenedor4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contenedor5{
+    width: 90%;
+}
+    /* pagina 7 */
+
+    /* pagina 8 */
+.dos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 6%;
+    }
+    .dos2{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 6%;
+    }
+    /* Paginas de la 9 a la 17 "EXTRAS" */
+.contenedor_p{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contendor_de_extra1{
+    display: none;     
+}
+.contendor_de_extra2{
+    display: block;     
+}
+}
+/* MEDIA QUERIES DE UNA LAPTOP */
+@media (min-width: 901px) and (max-width:2080px){
+    /* menu */
+.div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo{
+    width: 50%;
+    float: left; 
+}
+header{
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 10;
+    background-color: #c44dc0;
+}
+.navegacion, .menu, .submenu{
+    position: relative;
+    z-index: 10;
+}
+.navegacion{
+    width: 1000px;
+    margin: 0 auto;
+    top: 30%;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: white;
+    transition: all .3s;
+}
+.submenu{
+   position: absolute;
+    background:#c44dc0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    text-align: center;
+}
+.menu li a{
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}  
+    /* pagina 1 */
+imagen_inicio{
+    background-image:url(../imagenes/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.cont_tit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.605);
+    border-radius: 15px;
+}
+.titu{
+    font-family: arial;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+}
+.contenedor_icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 100px;
+    padding-top: 20px;
+    margin: 90px;
+}
+.contenedor_icons2{
+    text-align: center;
+}
+.img_icon{
+    width: 50%;
+    padding: 5px;
+}
+.frace{
+    font-size: 18px;
+}
+.div_inicio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    text-align: center;
+}
+.div_inicio2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contenedor_inicio3{
+    text-align: center;
+}
+.imagen_inicio3{
+    width: 65%;
+    border: 10px solid rgb(154, 105, 78);
+    border-radius: 10px;
+}
+.titulo_definicion{
+   font-family: arial;
+   text-align: center;
+}
+.texto_inicio{
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+.vid_datos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+    background-color: #E5D8BD;
+}
+.tit_datos{
+    text-align: center;
+    text-decoration: bold;
+    padding: 30px;
+   font-size : 30px;
+}
+.div_curio{
+    margin: 25px;
+}
+.img_dato{
+    width: 60%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto_dato{
+    text-align: center;
+    margin: 10px;
+    font-size: 19px;
+    
+}
+.concon{
+    background-color: #dca1e1;
+    margin-top: 2%;
+}
+.invitación{
+   text-align: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 19px;
+
+}
+.div_contacto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.div_logo{
+    text-align: right;
+    padding-top: 2%;
+}
+.logo_contacto{
+    width: 30%;
+}
+.contenedor_redes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+.red{
+    width: 20%;
+    margin-top: 5%;
+}
+.red:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+    /* pagina 2 */
+.titulo{
+    text-align: center;
+    padding: 30px;
+    font-family: arial;
+}
+.div_plantas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    text-align: justify;
+}
+.subtitulo{
+    font-family: arial;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+.contendor_de_extra2{
+    display: none;
+}
+.texto_plantas{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imagen_d_plantasnum1{
+    text-align: center;
+}
+.imagen_d_plantas{
+    width: 70%;
+    box-shadow: 0 4px 10px rgb(147, 147, 147);
+}
+.subtitulo2{
+    font-family: arial;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+.contenedor_plantas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+    margin: 2%;
+}
+.link_imagen{
+    text-align: center;
+    border-radius: 8PX;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+.imagen{
+    width: 80%;
+    margin: 25px;
+    border-radius: 8PX;
+}
+.planta{
+    font-family: arial;
+    color: black;
+    text-align: center;
+   padding-bottom: 10px;
+   font-size: 25px;
+   font-weight: bold;
+}
+.planta:hover{
+   text-decoration: underline;
+   color: #da315e;
+}
+.div_plantas2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.imagen_baño{
+    text-align: center;
+    padding: 10px;
+}
+.img_baño{
+    width: 80%;
+    border:10px solid #738290;
+}
+.texto_plantas2{
+    text-align: justify;
+    font-size: 19px;
+    padding-top: 15%;
+}
+.div_baños{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 2%;
+    margin-top: 7%;
+}
+.baños{
+ border-radius: 5px;
+  box-shadow: 0 4px 10px rgb(39, 39, 39); 
+  background-color: #9da8ca;
+}
+.tit{
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+}
+.lu{
+   list-style-type: decimal;
+   text-align: justify;
+   padding-left: 10%;
+   padding-right: 10%;
+   font-size: 19px;
+}
+.lu li{
+    padding: 5px;
+}
+    /* pagina 3 */
+.textoe{ 
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 19px;
+}
+.div_baño{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.baño{
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgb(0,0,0,0.3); 
+}
+.texto_de_tecnicas{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+.img_tecnica{
+    text-align: center;
+}
+.img_tecnicas{
+    width: 90%;
+    border-radius: 8px;
+}
+.container3{
+    margin: 5%;
+}
+.titul{
+    font-family: arial;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.Beneficio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.benef{
+    background: #d7e1eb;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+    font-size: 15px;  
+}
+.titulo_bene{
+    text-align: center;
+    font-family: arial;
+    padding: 5px;
+}
+    /* pagina 4 */
+.definicion_curanderia{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 5%;
+}
+.titulo_{
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    padding: 8px;
+}
+.conteiner_img{
+    text-align: center;
+}
+.imagen_de_definicion{
+    width: 50%;
+    box-shadow: 0 4px 10px rgb(39, 39, 39);
+}
+.texto_curandería{
+    text-align: justify;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.tip_cura{
+    font-family: arial;
+    text-align: center;
+}
+.div_tipos_c{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 60px;
+}
+.divdiv{
+    margin: 20px;
+}
+.subtitul{
+    text-align: center;
+    font-family: arial;
+    margin-top: 6%;
+}
+.div_tipos_c2{
+    margin: 10px;
+}
+.div_tipos_c3{
+    margin: 10px;
+    background-color: #A1B5D8;
+    border-radius: 8px;
+}
+.cont_img_cura{
+    text-align: center;
+    margin: 5px;
+}
+.img_cura{
+    width: 90%;
+    border-radius: 8px;
+    border: 8px solid #CDB4DB;
+}
+.texto2{
+    font-size: 19px;
+    text-align: center;   
+}
+.texto3{
+    font-size: 19px;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px; 
+    list-style: circle; 
+}
+.texto3 li{
+    padding: 5px;
+}
+    /* pagina 5 */
+.contenedor_de_img_parteras{
+    text-align: center;
+}
+.tex_to{
+    text-align: center;
+    font-size: 19px;
+}
+.img1{
+    width: 70%;
+    height: 200px;
+    border-radius: 8px;
+}
+.text1{
+    text-align: justify;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.contenedora{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 5%;
+}
+.historia_p{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.lul{
+    list-style-type: decimal;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 16px;
+}
+.lul li{
+    padding-top: 6px;
+}
+.luli{
+    list-style-type: decimal;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.luli li{
+    padding-top: 12px;
+}
+.img_ultim{
+    width: 60%;
+    border-radius: 8px;
+    border: 8px solid #A1B5D8;
+}
+.contenedor1{
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px;
+    background-color: #d0c5af; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    width: 90%;
+}
+.conten_img2{
+    text-align: center;
+}
+.img2{
+    width: 90%;
+    border-radius: 8px;
+    margin: 20px;
+}
+.mega_contendor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.contenedor2{
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px;
+    background-color: #e4f0d0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+.img_ultimo1{
+   text-align: center;
+}
+.img_ultimo{
+    width: 70%;
+    border-radius: 8px;
+    border: 8px solid #A1B5D8;
+}
+.contenedor_boton{
+    text-align: left;
+    margin-top: 30px;
+    text-align: center;
+}
+.boton1{
+    color: black;
+    background-color: #e4f0d0; 
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+}
+.boton1:hover{
+    background-color: #A1B5D8;
+}
+    /* pagina 6 */
+.imgc{
+    width: 50%;
+    box-shadow: 0 4px 10px rgb(39, 39, 39);
+}
+.img_chamaness{
+    width: 100%;
+    padding-top: 3%;
+}
+.contenedor4{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+}
+.text1{
+    font-size: 19px;
+}
+.contenedorc{
+    background-color:#a1b5d8;
+    text-align:center;
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+.titul_e{
+    font-family: arial;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+.contenedor5{
+   width: 100%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+.text1{
+    font-size: 19px;
+}
+.TEXTO{
+    font-size: 19px;
+}
+.contenedord{
+    background-color:#a1b5d8;
+    text-align:left;
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.img3{  
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+    /* pagina 7 */
+.imgs{
+    text-align: center;
+    width: 40%;
+}
+.contimg{
+    text-align: center;
+    margin: 2%;
+}
+.contenedore{
+    display:flow-root;
+    background-color: #dba675;
+    text-align: center;
+    border: 2px solid #000; 
+    padding: 15px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+
+}
+    /* pagina 8 */
+.dos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 6%;
+    }
+    .dos2{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 6%;
+}
+ /* pagina 9 a la 17 "EXTRAS */
+.textol_plantas{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-align: justify;
+}
+.contenedor_p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.contenedor_img{
+    text-align: center;
+}
+.img_planta{
+    width: 80%;
+    margin: 4%;
+    border-radius: 8px;
+}
+}
